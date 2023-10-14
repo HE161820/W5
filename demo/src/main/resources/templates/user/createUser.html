@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Register</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>Create User</h1>
+        <form method="post" th:action="@{/user/create}">
+            <label>Name: </label>
+            <input name="name" />
+            <button type="submit">Create</button>
+        </form>
+    </body>
+</html>

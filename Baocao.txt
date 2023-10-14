@@ -1,0 +1,3 @@
+Công việc đã làm trong tuần
+1. Nghiên cứu lý thuyết cơ bản về Spring Data và JPA
+2. Thực Hành demo code đơn giản chức năng CRUD

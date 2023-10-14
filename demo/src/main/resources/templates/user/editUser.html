@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Edit User</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>Edit User</h1>
+        <form method="post" th:action="@{/user/edit}" th:object="${user}">
+            <div>
+                <label>ID: </label>
+                <input th:field="{id}" readonly/>
+            </div>
+            <div>
+            <<label>Name: </label>
+            <input th:filded="{name}"/>
+            <span th:errors="{name}"/>
+            </div>
+            <button type="submit">Save</button>
+        </form>
+    </body>
+</html>
